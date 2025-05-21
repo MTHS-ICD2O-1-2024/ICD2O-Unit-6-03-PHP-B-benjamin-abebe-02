@@ -1,4 +1,30 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Benjamin Abebe
+* Created on: Feb 2025
 * This file contains the CSS for index.html
 */
+
+
+.mdl-layout__content {
+  margin-left: 60px;
+}
+
+.mdl-layout__header-row {
+  background-color: green;
+}
+
+
+body,
+#answer {
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+img {
+  float: right;
+  height: 200px;
+}

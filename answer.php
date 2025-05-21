@@ -10,7 +10,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./css/style.css" />
   <title>API & JSON weather app</title>
 </head>
 
@@ -43,15 +43,15 @@
         $description = ucfirst($data["weather"][0]["description"]);
         $iconCode = $data["weather"][0]["icon"];
         $iconUrl = "https://openweathermap.org/img/wn/$iconCode@2x.png";
-    
+
         echo "<p>Temperature: $temp °C</p>";
         echo "<p>Condition: $description</p>";
         echo "<img src='$iconUrl' alt='Weather Icon'>";
-      }
+      }    
     ?>
       <br />
       <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="./index.php">
-        Go back to form
+        Go back
       </a>
       <br />
     </main>
